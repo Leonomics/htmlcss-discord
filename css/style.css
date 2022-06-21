@@ -121,6 +121,10 @@ nav.container  {
     flex-basis:40%;
 }
 
+.section-col-reverse    {
+    background-color: lightgray;
+}
+
 .section-col-reverse .container   {
     flex-direction: row-reverse;
 }
@@ -137,13 +141,29 @@ nav.container  {
 
 
 /*BIG "TECH" RECTANGLE*/
-#tech .container    {
-    display: flex;
-    
+#tech   {
+    background-color: lightgray;
 }
 
+#tech .container    {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-text h1  {
+    text-align: center;
+}
+
+
+/*FOOTER SECTION*/
 footer .footer-widget  {
     padding: 10px 0 30px;
+}
+
+#footer-widget  {
+    background-color: midnightblue;
 }
 
 footer #colophon    {
@@ -173,6 +193,20 @@ footer .container  {
 
 .col-2  {
     flex-basis: calc(100%/6);
+}
+
+.language   {
+    display: flex;
+
+}
+
+.language img   {
+    padding-left: 5%;
+}
+
+.language h3    {
+    padding: 5%;
+    color: white;
 }
 
 .container{
@@ -205,4 +239,3 @@ footer .container  {
 .debug #tech .col   {
     min-height: 400px;
 }
-
