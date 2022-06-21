@@ -152,6 +152,12 @@ nav.container  {
     align-items: center;
 }
 
+.avventura  {
+    text-align: center;
+    background-image: url(../img/stars.svg);
+    padding: 1%;
+}
+
 .row-text h1  {
     text-align: center;
 }
@@ -163,12 +169,22 @@ footer .footer-widget  {
 }
 
 #footer-widget  {
-    background-color: midnightblue;
+    background-color: #23272a;
 }
 
 footer #colophon    {
     padding-top: 25px;
 }
+
+.col-4 h1,
+.col-2 h1{
+    color: #5865f2;
+}
+
+.col h3  {
+    color: white;
+}
+
 
 #colophon .container    {
     justify-content: space-between;
@@ -207,6 +223,16 @@ footer .container  {
 .language h3    {
     padding: 5%;
     color: white;
+}
+
+#colophon .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.registrati {
+    background-color: #5865f2;
 }
 
 .container{
