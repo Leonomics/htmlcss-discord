@@ -13,13 +13,72 @@
     flex-grow: 1;
 }
 
+/*HERO*/
+
+.hero__content  {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+/*hero section background image*/
+.hero-section   {
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+   
+
+}
+
+/*hero section text*/
+.hero__content h1   {
+    color: white;
+    text-align: center;
+}
+.hero__content p    {
+    color: white;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+/*hero section buttons*/
+.hero-buttons   {
+    align-self: center;
+    flex-basis: 100%;
+    width: 300px;
+}
+.browser-button {
+    background-color: black;
+    color: white;
+    border-radius: 5%;
+    min-height: fit-content;
+    min-width: fit-content;
+    padding: 1%;
+}
+
+.download-button    {
+    background-color: white;
+    border-radius: 5%;
+    min-height: fit-content;
+    min-width: fit-content;
+    padding: 1%;
+}
+
 .hero__content  {
     max-width: 900px;
-    margin: 0 auto;
+    margin: 0 auto;  
 }
 
 .section-with-col   {
     display: flex;
+}
+
+.section-with-col .container    {
+    display: flex;
+    justify-content: center;
 }
 
 .w-60   {
